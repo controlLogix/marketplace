@@ -12,6 +12,7 @@ Copy the `skills/reprompt/` folder into the skills folder your agent reads. Comm
 | --- | --- |
 | Most agents that support `SKILL.md` | `~/.agents/skills/reprompt/` |
 | Claude Code | `~/.claude/skills/reprompt/` |
+| Cursor | `~/.cursor/skills/reprompt/` (it also reads `~/.agents/skills/`) |
 | Grok CLI | `~/.grok/skills/reprompt/` (it also reads `~/.agents/skills/`) |
 
 Codex installs reprompt as a plugin. See [README.md](README.md).

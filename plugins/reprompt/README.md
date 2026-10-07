@@ -14,6 +14,8 @@ The rewrite follows the plain-language standard ISO 24495-1:2023.
 
 ## How to use it
 
+The full step-by-step guide, with a worked example and install steps for every app, is in the [marketplace README](../../README.md).
+
 - Type `/reprompt <your prompt>`.
 - Or just type a vague planning or goal request. reprompt starts on its own when a request is too vague to act on well.
 
@@ -24,6 +26,8 @@ The rewrite follows the plain-language standard ISO 24495-1:2023.
 | Claude Code | `/plugin marketplace add controlLogix/marketplace`, then `/plugin install reprompt@controllogix` |
 | Codex CLI | `codex plugin marketplace add <marketplace path or repo>`, then `codex plugin add reprompt@controllogix`. Codex reads `.agents/plugins/marketplace.json` and `.codex-plugin/plugin.json`. |
 | Grok CLI | `grok plugin install <path to plugins/reprompt> --trust`, or `grok plugin marketplace add <marketplace>`. Grok reads the `.claude-plugin/` manifests. |
+| Cursor | Copy `skills/reprompt/` to `~/.cursor/skills/reprompt/`. |
+| Claude desktop chat or claude.ai | Upload `dist/reprompt-skill.zip` from the marketplace root under Settings, Capabilities, Skills. |
 | Any other agent | See [AGENTS.md](AGENTS.md). |
 
 To try it without installing, start Claude Code with `claude --plugin-dir plugins/reprompt`.
