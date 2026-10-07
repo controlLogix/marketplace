@@ -1,0 +1,30 @@
+{
+  "name": "controllogix",
+  "description": "Claude Code plugins published by controlLogix.",
+  "owner": {
+    "name": "controlLogix",
+    "url": "https://github.com/controlLogix"
+  },
+  "plugins": [
+    {
+      "name": "reprompt",
+      "source": "./plugins/reprompt",
+      "description": "Rewrites a rough prompt into a stronger one: finds missing context and blind spots, interviews you, shows the optimized prompt, and offers to run it. Works in Claude Code, Codex, Grok and any SKILL.md-aware agent.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": [
+        "prompt",
+        "prompt-engineering",
+        "planning",
+        "requirements",
+        "interview"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/controlLogix/marketplace",
+      "author": {
+        "name": "ADAG Group",
+        "email": "ryan@helms.ai"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "reprompt",
+  "version": "0.1.0",
+  "description": "Rewrites a rough prompt into a stronger one. It finds missing context and blind spots, interviews you about them, shows the optimized prompt, and offers to run it in place of the original.",
+  "interface": {
+    "displayName": "Reprompt",
+    "shortDescription": "Optimize a prompt before the work starts",
+    "longDescription": "Reprompt classifies a prompt as planning, goal or missing information. It reads local instruction files for context, asks two to four targeted questions, and rewrites the prompt in plain language with a goal, constraints, deliverables and a definition of done. It then offers to send the optimized prompt, optimize it further or show a diff.",
+    "developerName": "ADAG Group",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://adaggroup.com",
+    "defaultPrompt": [
+      "Use reprompt to optimize this prompt: plan the migration of our logging library.",
+      "Use reprompt on: make the HMI faster."
+    ]
+  },
+  "author": {
+    "name": "ADAG Group"
+  },
+  "homepage": "https://adaggroup.com",
+  "repository": "https://github.com/controlLogix/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "prompt",
+    "planning",
+    "requirements",
+    "interview"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "controllogix",
+  "interface": {
+    "displayName": "controlLogix"
+  },
+  "plugins": [
+    {
+      "name": "reprompt",
+      "source": {
+        "source": "local",
+        "path": "./plugins/reprompt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
